@@ -8,12 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class Comp1Component implements OnInit {
   ServerID: number;
   ServerStatus: string;
-  allowNewServer = false;
   constructor() {
     this.ServerID = 10;
     this.ServerStatus = 'Offline';
   }
-
   ngOnInit() {
   }
 
